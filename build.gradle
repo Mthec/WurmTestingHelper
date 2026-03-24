@@ -2,10 +2,12 @@ plugins {
     id 'java-library'
 }
 
-group 'mod.wurmunlimited.testing'
-version '1.0-SNAPSHOT'
+group = 'mod.wurmunlimited.testing'
+version = '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+java {
+    sourceCompatibility = 1.8
+}
 
 repositories {
     mavenLocal()
